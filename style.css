@@ -1,0 +1,92 @@
+body {
+    height: 100vh;
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    scroll-behavior: smooth;
+}
+
+
+
+b {
+    margin: 0 0 10%;
+    font-size: 2.7vw;
+}
+
+.a {
+    justify-content: center;
+    align-items: center;
+}
+
+.contimg {
+    overflow: hidden;
+}
+
+.pos {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 5vh auto;
+}
+
+.sinopsis {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    height: 70%;
+    background-color: aliceblue;
+    opacity: 0;
+    width: 90%;
+    font-size: 2vw;
+    padding: 2px;
+    overflow-x: auto;
+    border: 3px dashed black;
+
+    transition-duration: 0.5s;
+}
+
+.i {
+    border: 4px solid white;
+    width: auto;
+    height: 95%;
+    transition-duration: 0.5s;
+}
+
+.h {
+    height: 100%;
+    width: 100%;
+}
+
+.contimg:hover .i {
+    border-color: rgb(114, 208, 231);
+    background-color: aliceblue;
+}
+
+.contimg:hover .sinopsis {
+    opacity: 0.9;
+}
+
+@media screen and (min-width:990px) {
+    .container {
+        max-width: 989px;
+    }
+
+    b {
+        font-size: 30px;
+    }
+
+    .sinopsis {
+        font-size: 20px;
+    }
+}
+
+/* Estableciendo un tamaño de fuente y de contenedor máximo,
+en este caso es a partir de los 990px */
+
+
+/* @media screen and (min-width:900px){
+    .i, .col{
+        width: auto;
+        height: 65%;
+    }
+} */
+/* se pondran en el centro de su elemento */

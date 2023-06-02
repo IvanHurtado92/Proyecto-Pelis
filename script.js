@@ -19,7 +19,8 @@ function generarDatos(datos) { //recibe un arreglo de objetos
 			txt += `    <div class="row g-3 ">
 `
 		}
-		txt += `      <div class="col pos">
+		if(i==n-1 && n %2 != 0){
+			txt += `      <div class="col-6 pos mx-auto">
 		<div class="contimg">
 			<img src="${datos[i].IMG}" alt="${datos[i].NOM}"
 				class="img-fluid  i">
@@ -27,6 +28,17 @@ function generarDatos(datos) { //recibe un arreglo de objetos
 		</div>
 		<b>${datos[i].NOM}</b>
 	</div>`
+		}
+		else{
+			txt += `      <div class="col pos">
+			<div class="contimg">
+				<img src="${datos[i].IMG}" alt="${datos[i].NOM}"
+					class="img-fluid  i">
+				<div class="sinopsis"><p>${datos[i].SINOP} <br><br> Dirigida por <a href="${datos[i].DIRL}" target="_blank" rel="noopener noreferrer">${datos[i].DIRN}</a></p></div>
+			</div>
+			<b>${datos[i].NOM}</b>
+		</div>`
+		}
 		// if (i % 2 == 0 && salto == true) {
 		// 	txt += `    </div>
 		// 	`

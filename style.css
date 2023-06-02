@@ -26,6 +26,7 @@ b {
     overflow: hidden;
     padding: 0;
     margin: 0 5vh auto;
+    height: 100%;
 }
 
 .sinopsis {
@@ -46,10 +47,10 @@ b {
 
 .i {
     border: 4px solid white;
-    width: auto;
+    width: 100%;
     height: 95%;
     transition-duration: 0.5s;
-}
+  }
 
 .h {
     height: 100%;
@@ -76,6 +77,13 @@ b {
 
     .sinopsis {
         font-size: 20px;
+    }
+
+    .row{
+        max-height: 704px;
+    }
+    .i{
+        max-height: 592.7px;
     }
 }
 

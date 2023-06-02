@@ -13,9 +13,8 @@ function generarDatos(datos) { //recibe un arreglo de objetos
 	let txt = `<div class="container text-center">
 `
 	for (i = 0; i < n; i++) {
-		// let salto = true
+		
 		if (i % 2 == 0) {
-			salto = false;
 			txt += `    <div class="row g-3 ">
 `
 		}
@@ -39,10 +38,6 @@ function generarDatos(datos) { //recibe un arreglo de objetos
 			<b>${datos[i].NOM}</b>
 		</div>`
 		}
-		// if (i % 2 == 0 && salto == true) {
-		// 	txt += `    </div>
-		// 	`
-		// }
 		if(i % 2 != 0){
 			txt += `    </div>
 			<br><br>
@@ -51,8 +46,4 @@ function generarDatos(datos) { //recibe un arreglo de objetos
 	}
 	txt += `</div>`
 	document.getElementById("todo").innerHTML = txt;
-	// console.log(datos[0].NOM)
-	// console.log(`hola que  
-	// quieres cara 
-	// de nalga`)
 }

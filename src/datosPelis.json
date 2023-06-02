@@ -1,0 +1,46 @@
+{
+    "PELIS":[
+        {
+            "NOM":"1917",
+            "IMG":"https://www.themoviedb.org/t/p/original/2Y2HtSq4cZa1kmVLZm1bGokImF7.jpg",
+            "SINOP":"Durante la Primera Guerra Mundial, dos jóvenes soldados británicos reciben una orden,aparentemente, imposible de ejecutar: en una carrera contra el reloj, deben infiltrarse en territorio enemigo para entregar un mensaje que podría salvar a miles de compañeros.",
+            "DIRL":"https://es.wikipedia.org/wiki/Sam_Mendes",
+            "DIRN":"Sam Mendes"
+        },
+        {
+            "NOM":"All quiet on the western front",
+            "IMG":"https://m.media-amazon.com/images/M/MV5BMzM4ZDJhYjYtZGY5Ny00NTk0LWI4ZTYtNjczZDFiMGI2ZjEzXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_FMjpg_UX1000_.jpg",
+            "SINOP":"En la Alemania de 1917, el joven Paul Baumer miente sobre su edad para alistarse con sus amigos, todos ellos jóvenes patriotas. Sin embargo, la realidad de la guerra desmantela casi inmediatamente su exuberancia.",
+            "DIRL":"https://es.wikipedia.org/wiki/Edward_Berger",
+            "DIRN":"Edward Berger"
+        },
+        {
+            "NOM":"Spider-man (2002)",
+            "IMG":"https://www.themoviedb.org/t/p/original/kjdJntyBeEvqm9w97QGBdxPptzj.jpg",
+            "SINOP":"Luego de sufrir la picadura de una araña genéticamente modificada, un estudiante de secundaria tímido y torpe adquiere increíbles capacidades como arácnido. Pronto comprenderá que su misión es utilizarlas para luchar contra el mal y defender a sus vecinos.",
+            "DIRL":"https://es.wikipedia.org/wiki/Sam_Raimi",
+            "DIRN":"Sam Raimi"
+        },
+        {
+            "NOM":"The other guys",
+            "IMG":"https://i.pinIMG.com/originals/45/02/7e/45027ec22171b6b86796ce9f9bae5fb5.jpg",
+            "SINOP":"Allen gamble y Terry hoitz son dos policías de Nueva York que viven a la sombra de los héroes del cuerpo, Christopher y P..K. Highsmith. Sin embargo, cuando las cosas se tuerzan en la gran manzana, esta peculiar pareja tendrá que entrar en acción.",
+            "DIRL":"https://es.wikipedia.org/wiki/Adam_McKay",
+            "DIRN":"Adam Mckay"
+        },
+        {
+            "NOM":"Just like heaven",
+            "IMG":"https://images.wolfgangsvault.com/m/xlarge/ZZZ060663-PO/just-like-heaven-poster-sep-16-2005.webp",
+            "SINOP":"Cuando David alquiló un apartamento en San Francisco, lo último que esperaba era compartirlo con una mujer fantasma.",
+            "DIRL":"https://es.wikipedia.org/wiki/Mark_Waters",
+            "DIRN":"Mark Waters"
+        },
+        {
+            "NOM":"Rush",
+            "IMG":"https://www.joblo.com/wp-content/uploads/2013/07/rush-ron-howard-poster2-1.jpg",
+            "SINOP":"El carismático inglés James Hunt y el austriaco perfeccionista Niki Lauda destacan en la escena de la Fórmula 1 de los años setenta y comparten una intensa rivalidad dentro y fuera de las pistas.",
+            "DIRL":"https://es.wikipedia.org/wiki/Ron_Howard",
+            "DIRN":"Ron Howard"
+        }
+    ]
+}

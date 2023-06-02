@@ -82,9 +82,9 @@ b {
     .row{
         max-height: 704px;
     }
-    .i{
-        max-height: 592.7px;
-    }
+    /* .contimg{
+        height: 592.7px;
+    } */
 }
 
 /* Estableciendo un tamaño de fuente y de contenedor máximo,
